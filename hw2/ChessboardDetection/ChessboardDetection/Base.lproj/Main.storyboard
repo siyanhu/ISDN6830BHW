@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jVM-du-yvh">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="J6W-M6-iCg">
+            <objects>
+                <viewController id="jVM-du-yvh" customClass="MainViewController" customModule="ChessboardDetection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lAk-xP-Fw6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W5m-8n-hQy" userLabel="Preview">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fja-Mw-U8H"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fja-Mw-U8H" firstAttribute="bottom" secondItem="W5m-8n-hQy" secondAttribute="bottom" id="B44-lW-hsM"/>
+                            <constraint firstItem="W5m-8n-hQy" firstAttribute="leading" secondItem="fja-Mw-U8H" secondAttribute="leading" id="B5K-2P-Vla"/>
+                            <constraint firstItem="W5m-8n-hQy" firstAttribute="trailing" secondItem="fja-Mw-U8H" secondAttribute="trailing" id="KwX-uO-dBE"/>
+                            <constraint firstItem="W5m-8n-hQy" firstAttribute="top" secondItem="lAk-xP-Fw6" secondAttribute="top" id="yom-ea-gjz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="videoPreview" destination="W5m-8n-hQy" id="U8a-oT-W0T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WHg-wS-rco" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-176.33587786259542" y="-269.01408450704224"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

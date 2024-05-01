@@ -1,0 +1,12 @@
+*.DS_Store
+*/.DS_Store
+*/__pycache__
+hw1/chessboards/.DS_Store
+hw1/.ipynb_checkpoints
+hw1/__pycache__
+hw2/data
+hw2/data*
+hw2/runs
+hw2/__pycache__
+hw2/.ipynb_checkpoints
+hw3/server/cache

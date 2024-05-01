@@ -1,0 +1,33 @@
+{
+  "originHash" : "bb208ab45ca8f534a75e5db75f3ff4226416a7eba7290afb19ea9a857118fe81",
+  "pins" : [
+    {
+      "identity" : "arvideokit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AFathi/ARVideoKit",
+      "state" : {
+        "branch" : "swift_5",
+        "revision" : "b923fac2f90621c8156978ec8f3aceecb12bfbeb"
+      }
+    },
+    {
+      "identity" : "socket.io-client-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/socketio/socket.io-client-swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "175da8b5156f6b132436f0676cc84c2f6a766b6e"
+      }
+    },
+    {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daltoniam/Starscream",
+      "state" : {
+        "revision" : "ac6c0fc9da221873e01bd1a0d4818498a71eef33",
+        "version" : "4.0.6"
+      }
+    }
+  ],
+  "version" : 3
+}
