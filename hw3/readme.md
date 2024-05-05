@@ -1,5 +1,9 @@
 # ISDN6380B_Homework Assignment3 Directions
 
+## Deliverables
+1. Report [report.pdf](report/report.pdf)
+2. Video [hw3.mp4](https://drive.google.com/file/d/1dsoTEUjtjbgBcEmRNqV0lgCa4FkDeLV-/view?usp=share_link).
+
 ## Server setup
 
 1. [flask_server.py](server/flask_server.py) is very well setup for Linux/MacOS/Windows. It is recommended to run in conda environemnt (python=3.9). And pip install flask, numpy, opencv-python and Pillow.
